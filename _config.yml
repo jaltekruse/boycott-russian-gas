@@ -3,7 +3,7 @@ title         : "Boycott Russian Gas"
 #title_right   : "space" # default: ""
 description   : ""
 keywords      : ""
-url           : https://kulacino.github.io/bajawa # site url
+url           : https://boycott-russian-gas.com # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 default_author: "Jason Altekruse" # other authors under _data/authors.yml
