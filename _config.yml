@@ -1,12 +1,12 @@
 # Site settings
-title         : "Bajawa"
+title         : "Boycott Russian Gas"
 #title_right   : "space" # default: ""
-description   : "A minimalist, simple, and clean Jekyll theme for blogger and writer."
-keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, simple, clean, bajawa theme"
+description   : ""
+keywords      : ""
 url           : https://kulacino.github.io/bajawa # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
-default_author: "Jane Doe" # other authors under _data/authors.yml
+default_author: "Jason Altekruse" # other authors under _data/authors.yml
 
 google_analytics  : UA-XXXXX-XX
 twitter_username  : "" # your twitter username

@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great');
-@import url('https://fonts.googleapis.com/css?family=Kreon:400,700');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
-$base-font-type: 'Roboto', 'Lato', sans-serif;
-$heading-font-type: 'Fredericka the Great', cursive;
-$plaintext-font-type: 'Courier Prime', 'Consolas', monospace;
-$alternate-font-type: 'Kreon', serif;
+$base-font-type: 'Roboto', sans-serif;
+$heading-font-type: 'Roboto', sans-serif;
+$plaintext-font-type: 'Roboto', sans-serif;
+$alternate-font-type: 'Roboto', sans-serif;
 
 /** Font Size **/
 $base-font-size: 1em;
@@ -28,8 +24,8 @@ $base-z-index: 0;
 $black: #000;
 $white: #fff;
 $blue: #318fb5;
-$light-berry: #dd7e6b;
-$dark-berry: #7d0633;
+$light-berry: #3d6fcb;
+$dark-berry: #0c48b7;
 $action-color: $dark-berry;
 $dark-grey: #696969;
 $medium-grey: #ddd;
