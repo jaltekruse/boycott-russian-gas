@@ -47,9 +47,9 @@
   {% assign page_image = '' %}
   {% capture page_image %}
       {% if page.cover %}
-          {{ page.cover | prepend: site.baseurl | prepend: site.url }}
+          {{ page.cover  }}
       {% else %}
-          {{ site.cover | prepend: site.baseurl | prepend: site.url }}
+          {{ site.cover  }}
       {% endif %}
   {% endcapture %}
   {% capture page_image %}{{ page_image | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
@@ -64,7 +64,7 @@
 {% else%}
   <meta property="og:type" content="website">
 {% endif %}
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html',''  }}">
   <meta property="og:title" content="{{ page_title }}">
   <meta property="og:image" content="{{ page_image }}">
   <meta property="og:description" content="{{ page_description }}">
@@ -84,21 +84,21 @@
   <meta itemprop="image" content="{{ page_image }}">
 
   <!-- Canonical link tag -->
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html',''  }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml"  }}">
 
   <!-- rel prev and next -->
   {% if paginator.previous_page %}
-    <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="prev" href="{{ paginator.previous_page_path  }}">
   {% endif %}
   {% if paginator.next_page %}
-    <link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="next" href="{{ paginator.next_page_path  }}">
   {% endif %}
 
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css"  }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png"  | prepend: site.baseurl | prepend: site.url }}" >
-  <link rel="icon" type="image/png" sizes="16x16"href="{{ "/assets/favicon-16x16.png"  | prepend: site.baseurl | prepend: site.url }}" >
-  <link rel="manifest" href="{{ "/assets/site.webmanifest" | prepend: site.baseurl | prepend: site.url }}" >
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png"  }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png"   }}" >
+  <link rel="icon" type="image/png" sizes="16x16"href="{{ "/assets/favicon-16x16.png"   }}" >
+  <link rel="manifest" href="{{ "/assets/site.webmanifest"  }}" >
 </head>
