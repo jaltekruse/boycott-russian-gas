@@ -16,23 +16,26 @@ h6 {
   font-size: $page-title;
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
-  font-weight: 700;
 }
 
 h1 {
   font-size: rem(30);
+  font-weight: 700;
 }
 
 h2 {
   font-size: rem(26);
+  font-weight: 400;
 }
 
 h3 {
   font-size: rem(24);
+  font-weight: 100;
 }
 
 h4 {
   font-size: rem(20);
+  font-weight: 50;
 }
 
 h5,
